@@ -33,6 +33,7 @@ package com.qualcomm.ftcrobotcontroller.opmodes;
 
 import com.qualcomm.robotcore.eventloop.opmode.OpModeManager;
 import com.qualcomm.robotcore.eventloop.opmode.OpModeRegister;
+import com.techietitans.opmodes.PushBotTester;
 
 /**
  * Register Op Modes
@@ -96,5 +97,6 @@ public class FtcOpModeRegister implements OpModeRegister {
     //manager.register("PushBotDriveTouch", PushBotDriveTouch.java);
     //manager.register("PushBotIrSeek", PushBotIrSeek.java);
     //manager.register("PushBotSquare", PushBotSquare.java);
+    manager.register("PushBotTester", PushBotTester.class);
   }
 }
